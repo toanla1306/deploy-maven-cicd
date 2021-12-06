@@ -31,7 +31,7 @@
     <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
     <spring-format.version>0.0.27</spring-format.version>
 
-    <tomcat.version>7.0.69</tomcat.version>
+<!--     <tomcat.version>7.0.69</tomcat.version> -->
 
   </properties>
 
@@ -121,7 +121,7 @@
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-juli</artifactId>
-      <version>${tomcat.version}</version>
+      <version>7.0.76</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
